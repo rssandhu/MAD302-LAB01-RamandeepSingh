@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- EditText for entering the user's name -->
+    <EditText
+        android:id="@+id/editTextName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="12dp"
+        android:hint="Enter Name"
+        android:inputType="textPersonName" />
+
+    <!-- EditText for entering the user's age -->
+    <EditText
+        android:id="@+id/editTextAge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Age"
+        android:inputType="number"
+        android:layout_marginBottom="12dp" />
+
+    <!-- Button to add the profile -->
+    <Button
+        android:id="@+id/buttonAddProfile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add Profile"
+        android:layout_marginBottom="16dp" />
+
+    <!-- TextView to display added profiles -->
+    <TextView
+        android:id="@+id/textViewProfiles"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Profiles will appear here"
+        android:textSize="18sp" />
+
+</LinearLayout>

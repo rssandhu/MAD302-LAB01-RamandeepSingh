@@ -8,20 +8,15 @@ import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
 
 /**
+ * Course: MAD302 - Lab 1
+ * Name: Ramandeep Singh
+ * Student ID: A00194321
+ * Date: 2026/02/15
+ *
+ * Description:
  * MainActivity for ProfileListApp.
- *
- * This activity allows the user to:
- * 1. Enter a name
- * 2. Enter an age
- * 3. Add the profile to a mutable list
- * 4. Display all added profiles in a TextView
- *
- * Assignment requirements covered:
- * - One screen only
- * - Uses Profile data class
- * - Uses mutableListOf<Profile>()
- * - Uses a for loop to display profiles
- * - Includes lifecycle logs
+ * This version connects the UI elements, reads name and age,
+ * adds Profile objects to a list, and displays them in a TextView.
  */
 class MainActivity : AppCompatActivity() {
 
